@@ -1,0 +1,21 @@
+# ------------------------------------------------------------------
+# XiShopConnector Configuration
+# ------------------------------------------------------------------
+# This file contains the primary settings for the XiShopConnector plugin.
+# Make sure to configure it correctly for the plugin to work.
+
+# Your unique API key generated from the xishop web panel for this server.
+# This is crucial for authenticating with the xishop API.
+api-key: "PASTE_YOUR_UNIQUE_API_KEY_HERE"
+
+# The base URL of the xishop API for your server.
+# Do not change this unless you are using a self-hosted version of xishop.
+api-url: "https://api.xishop.com/v1/server"
+
+# The interval in seconds at which the plugin will check for new commands to execute.
+# A lower value means faster command delivery but higher server load.
+check-interval-seconds: 60
+
+# Set to 'true' to enable detailed logging in the console for troubleshooting.
+# It is recommended to keep this 'false' during normal operation.
+debug-mode: false 
